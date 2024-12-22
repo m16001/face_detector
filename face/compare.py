@@ -126,7 +126,7 @@ extract_path = "./"
 # 提取圖片
 source_directory = "./lfw-deepfunneled"
 target_directory = "./imgs_input"
-collect_images(source_directory, target_directory, max_images=100)
+# collect_images(source_directory, target_directory, max_images=100)
 
 # 偵測人臉並標記
 input_directory = "./imgs_input"
