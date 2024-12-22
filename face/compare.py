@@ -16,7 +16,7 @@ def download_and_extract_dataset(url, download_path, extract_path):
     response = requests.get(url, stream=True)
     with open(download_path, 'wb') as f:
         shutil.copyfileobj(response.raw, f)
-    print("數據集下載完成！")
+    print("數據集下載完成！") 
 
     print("正在解壓數據集...")
     with tarfile.open(download_path, "r:gz") as tar:
@@ -26,7 +26,7 @@ def download_and_extract_dataset(url, download_path, extract_path):
     os.remove(download_path)
     print("已刪除壓縮包！")
 
-# 提取圖片到指定目錄
+# 提取圖片到指定目錄   
 def collect_images(source_dir, target_dir, max_images=100):
     """
     從來源資料夾遞迴提取圖片，並複製到目標資料夾
