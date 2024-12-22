@@ -138,4 +138,3 @@ output_directory = './imgs_output_my_result'
 detect_and_mark_faces(input_directory, output_directory)
 output_directory = './imgs_output_github_result'
 face_predictor(input_directory, output_directory)
-
