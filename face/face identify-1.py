@@ -96,7 +96,7 @@ source_directory = "./lfw-deepfunneled"
 target_directory = "./imgs_input"
 # collect_images(source_directory, target_directory, max_images=100)
 
-# 偵測人臉並標記
+# 偵測人臉並  標記
 input_directory = "./imgs_input"
 output_directory = "./imgs_output"
 detect_and_mark_faces(input_directory, output_directory)
